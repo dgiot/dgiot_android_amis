@@ -19,10 +19,9 @@ public class MainActivity extends Activity {
         WebSettings webSettings = mWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
         mWebView.setWebViewClient(new MyWebViewClient());
-
         // REMOTE RESOURCE
-        // mWebView.loadUrl("https://example.com");
-
+        mWebView.loadUrl("https://prod.dgiotcloud.cn");
+        //mWebView.loadUrl("http://121.5.171.21/dgiot-jiande/");
         // LOCAL RESOURCE
         // mWebView.loadUrl("file:///android_asset/index.html");
     }

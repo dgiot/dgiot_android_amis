@@ -16,7 +16,7 @@ If you want to create an app that shows the content of a remote website
 1. uncomment line **24** in `MainActivity.java` and replace `https://example.com` with your url
 
 	```java
-	mWebView.loadUrl("https://example.com");
+	mWebView.loadUrl("https://www.dgiotcloud.cn");
 	```
 
 2. open the `MyWebViewClient.java` file and replace `example.com` on line **15** with your hostname
